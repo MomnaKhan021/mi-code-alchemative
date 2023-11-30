@@ -1,0 +1,1059 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.redmi-navbar {
+    background-color: #ffff;
+    min-width: auto;
+    width: 100%;
+}
+.redmi-navbar-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 38px;
+    height: 50px;
+}
+.redmi-nabar-title {
+    color: #333;
+    display: flex;
+}
+.redmi-nabar-title h1 {
+    display: inline-block;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+.redmi-navbar-navs {
+    display: flex;
+    align-items: center;
+}
+li.redmi-navbar-nav {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px;
+}
+a.navbar-items {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+}
+picture{
+    display:inline-flex;
+    width: 100%;
+}
+
+main.redmi-main-container {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #ffff;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+
+}
+.redmi-section-01 {
+    flex-direction: row;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+img.sec-1-img {
+    width: 100%;
+}
+
+.section-1-content {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: absolute;
+    top: 38%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+span.redmi {
+    font-size: 50px;
+    font-weight: normal;
+    color: #000;
+    font-family: 'Xiaomi Brand', 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    width: 100%;
+}
+.section-1-line-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    position: absolute;
+    top: 145%;
+}
+
+span.lines {
+    font-size: 27px;
+    font-weight: normal;
+    color: #000;
+    font-family: 'Xiaomi Brand', 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.section-1-line-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    position: absolute;
+    top: 210%;
+}
+span.lines-1 {
+    font-size: 27px;
+    font-weight: normal;
+    color: #000;
+    font-family: 'Xiaomi Brand', 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+section.redmi-section-02 {
+    background-color: #deeaf9;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    /* justify-content: space-around; */
+    padding: 60px 205px 50px 205px;
+    flex-direction: row;
+}
+
+.section-2-content {
+    width: 45%;
+    height: 85vh;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+
+}
+img.line {
+    width: 5%;
+}
+.part-1 {
+    padding-left: 9%;
+    position: absolute;
+    display: flex;
+    /* margin: 9px; */
+    padding-top: 18%;
+    padding-right: 3%;
+    gap: 1%;
+    width: 100%;
+}
+span.p1 {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(100deg,#43b9ff,#297fff);
+    -webkit-background-clip: text;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: start;
+}
+span.p2{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 2%;
+}
+section.redmi-section-03 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+.section-2-content-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+.section-2-row-1{
+   display: flex;
+   flex-direction: row;
+   width: 100%; 
+   gap: 2%;
+}
+.section-2-p21 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding-left: 18%;
+    padding-top: 9%;
+}
+.section-2-p22 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-top: 0%;
+    width: 16%;
+}
+span.p21 {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(100deg,#43b9ff,#297fff);
+    -webkit-background-clip: text;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+}
+span.p22 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif
+}
+span.p23 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif
+}
+.section-2-row-1-col-1 {
+    display: flex;
+    width: 60%;
+    position: relative;
+}
+.section-2-row-1-col-2 {
+    display: flex;
+    width: 40%;
+    position: relative;
+}
+.section-2-row-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+.section-3-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    z-index: 1;
+    position: absolute;
+    top: 12%;
+    left: 23%;
+    width: 55%;
+}
+
+.section-3-lines{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.section-3-lines{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.section-3-line-3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+}
+span.sec-03-lines {
+    color: #000;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+.sec-03-lines-1{
+    color: #000;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+.sec-03-lines-2{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+section.redmi-section-4 {
+    text-align: center;
+    margin-top: 3%;
+    width: 100%;
+    z-index: 5;
+    position: relative;
+}
+.section-4-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    box-sizing: border-box;
+    /* margin-top: -11%; */
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 20%;
+    width: 30%;
+}
+.section-4-lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+span.sec-04-lines {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: start;
+}
+.section-4-line-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.sec-04-lines-2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: start;
+}
+.section-4-line-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 3%;
+    width: 90%;
+}
+.sec-04-lines-3{
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: start;
+}
+section.redmi-section-05 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+.section-5-content {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 10%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-left: 22%;
+    width: 44%;
+    z-index: 1;
+}
+span.sec-05-lines-1 {
+    font-size: 33px;
+    font-weight: 600;
+}
+span.sec-05-lines-2 {
+    font-size: 15px;
+    
+}
+.section-5-lines {
+    display: flex;
+    margin-top: 1%;
+}
+.section-5-lines-1 {
+    display: flex;
+    margin-top: 3%;
+}
+span.p51 {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(100deg,#43b9ff,#297fff);
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: start;
+}
+span.p52 {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(100deg,#43b9ff,#297fff);
+    -webkit-background-clip: text;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: start;
+}
+.div21{
+    margin-top: 13%;
+}
+span.sec-05-lines-21 {
+    font-size: 11px;
+}
+.div3{
+    margin-left: 17%;
+}
+.div5{
+    margin-left: 17%;
+}
+.div7{
+    margin-left: 17%;
+}
+.section-5-content-1 {
+    display: flex;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 22%;
+    width: 50%;
+}
+.sec-05-lines-11{
+    font-size: 20px;
+    font-weight: 600;
+}
+section.redmi-section-07 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+.section-7-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    z-index: 1;
+    position: absolute;
+    top: 13%;
+    left: 23%;
+    width: 55%;;
+}
+.section-7-lines{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.section-7-lines{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.section-7-line-3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+}
+span.sec-07-lines {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sec-07-lines-2{
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+}
+section.redmi-section-08 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+.section-8-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    z-index: 1;
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    width: 55%;;
+}
+.section-8-lines{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.section-8-lines{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.section-8-line-3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+}
+span.sec-08-lines {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+section.redmi-section-09 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 9;
+    position: relative;
+    padding-right: 12%;
+    width: 88%;
+}
+.section-9-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    z-index: 1;
+    position: absolute;
+    top: 46%;
+    left: 55%;
+    width: 21%;
+}
+.section-9-lines{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+span.sec-09-lines {
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+section.redmi-section-10 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 9;
+    position: relative;
+    width: 100%;
+}
+.section-10-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    z-index: 1;
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    width: 62%;
+}
+.section-10-lines{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+span.sec-10-lines {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: start;
+    width: 100%;
+}
+span.sec-10-lines-1 {
+    color: #000;
+    text-align: start;
+    font-size: 32px;
+    font-weight: 700;
+    width: 100%;
+}
+span.sec-10-lines-2 {
+    color: #000;
+    font-size: 12.5px;
+    font-weight: 300;
+    padding-top: 2%;
+    width: 81%;
+}
+.section-10-bottom-lines {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:71%;
+}
+.bottom-line-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+span.sec-10-bm-1 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: start;
+    width: 100%;
+}
+.bottom-line-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+span.sec-10-bm-2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: end;
+}
+section.redmi-section-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.section-11-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 1;
+    position: absolute;
+    top: 24%;
+    /* top: 1%; */
+    /* margin-top: -29%; */
+    margin-left: 29%;
+}
+.section-11-lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+span.sec-11-lines {
+    color: #000;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: start;
+    width: 100%;
+}
+.section-11-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 12%;
+    /* margin-top: 0%; */
+    margin-left: 16%;
+    z-index: 1;
+    position: absolute;
+    top: 64%;
+    /* gap: 8%; */
+}
+.sec-11-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 30%;
+    /* position: absolute; */
+    top: 7;
+}
+.txt-1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -135%;
+    left: 35%;
+    width: 100%;
+}
+span.icon-txt-1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+}
+.sec-11-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 30%;
+    padding-top: 4%;
+}
+.txt-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 54%;
+    left: 32%;
+    width: 100%;
+}
+span.icon-txt-2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+}
+
+
+
+section.redmi-section-12 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 9;
+    position: relative;
+    width: 100%;
+}
+.section-12-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: 11%;
+    left: 15%;
+    width: 70%;
+}
+.section-12-lines {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+span.sec-12-lines {
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    width: 30%;
+}
+.section-12-lines {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+span.sec-12-lines-2 {
+    color: #000;
+    font-size: 12.5px;
+    font-weight: 300;
+    padding-top: 1.5%;
+    width: 81%;
+}
+section.redmi-section-13 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 1;
+}
+span.sec-13-lines {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    width: 30%;
+    /* margin: 35px 0 44px; */
+    z-index: 1;
+    margin-top: -22%;
+    margin-left: 20%;
+}
+span.sec-13-lines-2 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    width: 27%;
+    margin-left: 20%;
+    margin-top: 1%;
+    z-index: 1;
+}
+section.redmi-section-14 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 20%;
+    width: 100%;
+    z-index: 1;
+    padding-right: -1%;
+}
+.section-14-content {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    align-items: flex-start;
+    width: 27%;
+    margin-left: -47%;
+    margin-top: 1%;
+}
+.section-14-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+span.sec-14-lines {
+    color: #000;
+    font-size: 37px;
+    font-weight: 900;
+    text-align: start;
+    width: 100%;
+}
+span.sec-14-lines-2 {
+    color: #000;
+    font-size: 14px;
+    padding-top: 3%;
+    text-align: start;
+}
+section.redmi-section-15 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 9;
+    position: relative;
+    width: 100%;
+}
+.section-15-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    width: 70%;
+}
+.section-15-lines {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+span.sec-15-lines {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    width: 50%;
+}
+.section-15-lines {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+span.sec-15-lines-2 {
+    color: #000;
+    font-size: 13.5px;
+    font-weight: 300;
+    padding-top: 2%;
+    width: 81%;
+}
+section.redmi-section-16 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* padding-right: 6%; */
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.section-16-content {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 45%;
+    margin-left: 21%;
+    margin-top: -6%;
+}
+span.sec-16-lines {
+    font-size: 36px;
+    font-weight: 600;
+}
+span.sec-16-lines-2 {
+    font-size: 12px;
+}
+.section-16-line-2 {
+    margin-top: 4%;
+}
+.section-16-line-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+
+img.icons {
+    width: 25%;
+}
+.div16 {
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10%;
+}
+.div166{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
+.div161 {
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10%;
+}
+.div162 {
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10%;
+}
+.div163 {
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10%;
+}
+.sec-16-lines-11{
+    font-size: 24px;
+    font-weight: 600;
+}
+.sec-16-lines-21{
+    font-size: 13px;
+    margin-top: 3%;
+}
+.section-16-line-4 {
+    display: flex;
+    width: 34%;
+    margin-top: 25%;
+}
+section.redmi-section-17 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    z-index: 9;
+    position: relative;
+    width: 100%;
+}
+.section-17-url {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    text-align: center;
+    margin-left: 29%;
+    justify-content: flex-start;
+    width: 50%;
+    position: absolute;
+    top: 40%
+}
+a.sec-17-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: end;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    width: 100%;
+}
+section.redmi-section-18 {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: flex-start; */
+    background-color: #fff;
+    width: 100%;
+    z-index: 18;
+    padding: 90px 0 90px;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+span.section-18-heading {
+    color: #656565;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 2%;
+    width: 100%;
+}
+span.section-18-subhedaings {
+    color: #656565;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 300;
+    text-align: start;
+    width: 100%;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
